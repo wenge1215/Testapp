@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Testapp</string>
+    <string name="text">看起来很眼熟是不是，上面的截图正是仿支付宝首页的头部效果。如果你熟悉AppBarLayout和CollapsingToolbarLayout的话，也许可以很快做出类似以上的简单界面，具体地说，就是定义一个CoordinatorLayout嵌套AppBarLayout再嵌套CollapsingToolbarLayout再嵌套Toolbar的布局。之所以要嵌套这么多层，是因为要完成以下功能：
+1、CoordinatorLayout嵌套AppBarLayout，这是为了让头部导航栏能够跟随内容视图下拉而展开，跟随内容视图上拉而收缩。这个内容视图可以是RecyclerView，也可以是NestedScrollView；
+2、AppBarLayout嵌套CollapsingToolbarLayout，这是为了定义导航栏下面需要展开和收缩的部分视图；
+3、CollapsingToolbarLayout嵌套Toolbar，这是为了定义导航栏上方无论何时都要显示的长条区域，其中Toolbar还要定义两个不同的样式布局，用于分别显示展开与收缩状态时的工具栏界面。</string>
+</resources>
